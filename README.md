@@ -1,21 +1,54 @@
-#### Surfs_Up
+# Business Climate Analysis
 
-# Overview
+#### Resources
 
-    The Surfs Up surf shop is a prospective surf shop opening in Hawaii. This analysis is a look at the temperatures in the area where the shop will open in hopes to determine if weather will be a negative influence on the potential profis of the business.
+- VS Code 1.77
+- Flask:
+  - API routes:
 
-# Results
+    - /api/v1.0/precipitation
+    - /api/v1.0/stations
+    - /api/v1.0/tobs
+    - /api/v1.0/temp/start/en
+- Pandas
+- SQLAlchemy
+- MatPlotLib
 
-    This analysis was conducted on the months of June and December. By choosing these two months it will give us a picture of the general summer and winter contditions of the island to best understand the potential weather complications that may arise.
+### Overview
 
-        In the month of June: 1700 temperatures were recorded ranging from a low of 64 to a high of 85. Averaging approximately 75 overall. 
+This analysis aims to assess the feasibility of opening a prospective surf and ice cream shop.
+By examining temperatureand precipitation data in Oahu, we can determine if the business is sustainable year-round and identify opportunities to attract customers.
 
-        In the month of December: 1517 temperatures were recorded ranging from a low of 56 to a high of 83. Averaging approximately 71 overall.
+### Results
 
-    
-# Summary
+|       | June precip | June temps | December precip | December temps |
+| ----- | ----------- | ---------- | --------------- | -------------- |
+| count | 1574.00     | 1700.00    | 1405.00         | 1517.00        |
+| mean  | 0.14        | 74.94      | 0.22            | 71.04          |
+| std   | 0.34        | 3.26       | 0.54            | 3.75           |
+| min   | 0.00        | 64.00      | 0.00            | 56.00          |
+| 25%   | 0.00        | 73.00      | 0.00            | 69.00          |
+| 50%   | 0.02        | 75.00      | 0.03            | 71.00          |
+| 75%   | 0.12        | 77.00      | 0.15            | 74.00          |
+| max   | 4.43        | 85.00      | 6.42            | 83.00          |
 
-    In general the average temperatures between our two analyzed months is roughly the same which lends favor to a positive outcome of the Surfs Up Surf Shop. While there are days during the month of December that may be too cold to be out surfing the average being around 70 degrees means that while there may be a few dys that are unfavorable, overall the month will be warm enough to surf.
-    June has a a similar outlook but the temperatures dont dip as low as December. The average is higher but not a major increase. 
+June and December will give us a picture of the general summer and winter contditions of the island to best understand the potential weather highs and lows
 
-    If we are to conclude that the months of June and December are the most extreme months of the year for temperatures it is safe to summarize that the weather will stay consistent enough year round to facilitate a successful Surf Shop. While there may be a few days through out the year where it is unfavorable to utilize the surf shop; overall the days that are sunniest should compensate for the days where it is too cold.
+Precipitation:
+
+* In June usually rains less (0.14 inches) compared to December (0.21 inches). So June is a bit drier.
+* December has more unpredictable weather when it comes to rain, with a high standard deviation (0.54 inches) compared to June's (0.34 inches).
+* Sometimes in December, there can be really heavy rain, with the maximum recorded rainfall reaching 6.42 inches. In June, the maximum rainfall has reached 4.43 inches.
+
+Temperature:
+
+* June is typically warmer with an average temperature of 74.94°F, while December is a bit cooler at 71.04°F.
+* Both June and December's temperatures have similar standard deviations, 3.26°F and  3.75°F respectively. So the temperatures in each month have a simlar spread.
+* While the temperatures may usually stay within that spread, Decembers have gotten colder with a minimum temperature of 56°F. In June, the minimum is higher at 64°F.
+* Both months can have hot days, but June tends to be slightly hotter with a maximum temperature of 85°F compared to December's 83°F.
+
+# Conclusion
+
+The analysis paints a positive picture for opening a surf and ice cream shop in Oahu. The weather patterns in June and December show consistent temperatures and manageable levels of rainfall, which is great. While there may be a few cooler or rainier days in winter months, overall, the conditions remain favorable for surfing and enjoying ice cream.
+
+It's safe to say that opening a surf and ice cream shop in Oahu is a promising idea. So dive into this exciting venture, knowing that the weather is on your side!
