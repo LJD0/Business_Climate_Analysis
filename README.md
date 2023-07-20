@@ -88,6 +88,10 @@ By examining temperatureand precipitation data in Oahu, we can determine if the 
 </table>
 
 
+
+
+
+
 June and December will give us a picture of the general summer and winter contditions of the island to best understand the potential weather highs and lows
 
 Precipitation:
