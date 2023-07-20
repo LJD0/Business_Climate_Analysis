@@ -21,18 +21,7 @@ By examining temperatureand precipitation data in Oahu, we can determine if the 
 
 ### Results
 
-|       | June precip | June temps | December precip | December temps |
-| ----- | ----------- | ---------- | --------------- | -------------- |
-| count | 1574.00     | 1700.00    | 1405.00         | 1517.00        |
-| mean  | 0.14        | 74.94      | 0.22            | 71.04          |
-| std   | 0.34        | 3.26       | 0.54            | 3.75           |
-| min   | 0.00        | 64.00      | 0.00            | 56.00          |
-| 25%   | 0.00        | 73.00      | 0.00            | 69.00          |
-| 50%   | 0.02        | 75.00      | 0.03            | 71.00          |
-| 75%   | 0.12        | 77.00      | 0.15            | 74.00          |
-| max   | 4.43        | 85.00      | 6.42            | 83.00          |
-
-<table>
+<table style='width: 80vw;'>
   <tr>
     <th></th>
     <th>June precip</th>
