@@ -32,6 +32,73 @@ By examining temperatureand precipitation data in Oahu, we can determine if the 
 | 75%   | 0.12        | 77.00      | 0.15            | 74.00          |
 | max   | 4.43        | 85.00      | 6.42            | 83.00          |
 
+<table>
+  <tr>
+    <th></th>
+    <th>June precip</th>
+    <th>June temps</th>
+    <th>December precip</th>
+    <th>December temps</th>
+  </tr>
+  <tr>
+    <td>count</td>
+    <td>1574.00</td>
+    <td>1700.00</td>
+    <td>1405.00</td>
+    <td>1517.00</td>
+  </tr>
+  <tr>
+    <td>mean</td>
+    <td>0.14</td>
+    <td>74.94</td>
+    <td>0.22</td>
+    <td>71.04</td>
+  </tr>
+  <tr>
+    <td>std</td>
+    <td>0.34</td>
+    <td>3.26</td>
+    <td>0.54</td>
+    <td>3.75</td>
+  </tr>
+  <tr>
+    <td>min</td>
+    <td>0.00</td>
+    <td>64.00</td>
+    <td>0.00</td>
+    <td>56.00</td>
+  </tr>
+  <tr>
+    <td>25%</td>
+    <td>0.00</td>
+    <td>73.00</td>
+    <td>0.00</td>
+    <td>69.00</td>
+  </tr>
+  <tr>
+    <td>50%</td>
+    <td>0.02</td>
+    <td>75.00</td>
+    <td>0.03</td>
+    <td>71.00</td>
+  </tr>
+  <tr>
+    <td>75%</td>
+    <td>0.12</td>
+    <td>77.00</td>
+    <td>0.15</td>
+    <td>74.00</td>
+  </tr>
+  <tr>
+    <td>max</td>
+    <td>4.43</td>
+    <td>85.00</td>
+    <td>6.42</td>
+    <td>83.00</td>
+  </tr>
+</table>
+
+
 June and December will give us a picture of the general summer and winter contditions of the island to best understand the potential weather highs and lows
 
 Precipitation:
